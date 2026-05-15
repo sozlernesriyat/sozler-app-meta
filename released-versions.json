@@ -1,5 +1,5 @@
 {
-  "$comment": "Mağazalarda live olan sürümler. package.json.version'dan farkı: bu sadece mağaza onayı SONRASI güncellenir. API endpoint'leri (api.mobil.sozler.com.tr/app-version-android, /app-version-huawei) bu dosyadan okur. iOS için kullanılmaz (mobile iTunes Lookup kullanıyor). Workflows: poll-stores-live.yml (Play Store otomatik cron saatte bir) + mark-huawei-live.yml (workflow_dispatch ile manuel).",
+  "$comment": "Mağazalarda live olan sürümler. Sadece mağaza onayı SONRASI güncellenir. Mobile app `sozler-app-meta` public repo'sundaki kopyadan okur (raw URL). Sync: publish-released-versions.yml. Yazıcılar: poll-stores-live.yml (Play Store cron) + mark-huawei-live.yml (workflow_dispatch). iOS sadece referans — mobile iTunes Lookup kullanır.",
   "android": "2.5.4",
   "huawei": "2.5.4",
   "ios": "2.5.4"
