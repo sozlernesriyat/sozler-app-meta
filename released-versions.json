@@ -1,0 +1,6 @@
+{
+  "$comment": "Mağazalarda live olan sürümler. package.json.version'dan farkı: bu sadece mağaza onayı SONRASI güncellenir. API endpoint'leri (api.mobil.sozler.com.tr/app-version-android, /app-version-huawei) bu dosyadan okur. iOS için kullanılmaz (mobile iTunes Lookup kullanıyor). Workflows: poll-stores-live.yml (Play Store otomatik cron saatte bir) + mark-huawei-live.yml (workflow_dispatch ile manuel).",
+  "android": "2.5.4",
+  "huawei": "2.5.4",
+  "ios": "2.5.4"
+}
