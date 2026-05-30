@@ -1,6 +1,6 @@
 {
   "$comment": "Mağazalarda live olan sürümler. Sadece mağaza onayı SONRASI güncellenir. Mobile app `sozler-app-meta` public repo'sundaki kopyadan okur (raw URL). Sync: publish-released-versions.yml. Yazıcılar: poll-stores-live.yml (Play Store cron) + mark-huawei-live.yml (workflow_dispatch). iOS sadece referans — mobile iTunes Lookup kullanır.",
   "android": "2.6.1",
-  "huawei": "2.6.0",
+  "huawei": "2.6.1",
   "ios": "2.5.4"
 }
